@@ -4,6 +4,7 @@
 #include<stdio.h>
 
 int main(void){
-	printf("%lu\n", DIOCNATLOOK);
+	printf("DIOCNATLOOK: %lu\n", DIOCNATLOOK);
+	printf("PF_OUT: %d\n", PF_OUT);
 	return 0;
 }
